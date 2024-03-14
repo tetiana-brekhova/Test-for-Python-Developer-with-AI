@@ -6,7 +6,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ""
 
 app = Flask(__name__, static_url_path='/static')
 app.secret_key = "secret"
